@@ -43,6 +43,7 @@ public class Calculadora extends HttpServlet {
             case "6":
                 int numero1 = (int) n1;
                 int numero2 = (int) n2;
+
                 if(n1 % 2 == 0 && n2 % 2 == 0) {
                     return numero1 + " y " + numero2 + " son pares";
                 } else if (n1 % 2 == 0 && n2 % 2 == 1) {
