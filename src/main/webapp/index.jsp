@@ -16,16 +16,16 @@
     <form method="post" action="Calculadora">
         <div class="mb-3">
             <label class="formlabel">Número 1</label>
-            <input type="number" class="form-control" name="nro1">
+            <input type="number" class="form-control" name="nro1" required>
         </div>
 
         <div class="mb-3">
             <label class="formlabel">Número 2</label>
-            <input type="number" class="form-control" name="nro2">
+            <input type="number" class="form-control" name="nro2" required>
         </div>
 
         <div class="mb-3">
-            <select class="form-select" name="opcion">
+            <select class="form-select" name="opcion" required>
                 <option disabled selected>Selecciona una operación</option>
                 <option value="1">Suma</option>
                 <option value="2">Resta</option>
